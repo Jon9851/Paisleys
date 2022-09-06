@@ -1,4 +1,32 @@
-p{
-    margin-left: 5%;
+
+p {
+    margin-left: 10%;
     margin-right: 10%;
+}
+
+/*sticky footer css*/
+main {
+    flex: 1 0 auto;
+  }
+
+  .flashes h4 {
+    line-height: 2;
+}
+
+footer {
+    background: #aec589;
+}
+
+.social-links {
+    text-align: center;
+}
+.social-links li {
+    display: inline;
+}
+.social-links i {
+    font-size: 250%;
+    margin: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: #ffffff;
 }
