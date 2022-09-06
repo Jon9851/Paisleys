@@ -2,6 +2,7 @@
 p {
     margin-left: 10%;
     margin-right: 10%;
+    text-align: center;
 }
 
 /*sticky footer css*/
@@ -13,10 +14,12 @@ main {
     line-height: 2;
 }
 
+/*footer color*/
 footer {
     background: #aec589;
 }
 
+/* css for social link*/
 .social-links {
     text-align: center;
 }
@@ -29,4 +32,14 @@ footer {
     padding-left: 5%;
     padding-right: 5%;
     color: #ffffff;
+}
+
+.card {
+    border: 1rem solid #aec589;
+}
+
+.card-body {
+    background: white;
+    color: #aec589;
+    font-size: 1rem;
 }
