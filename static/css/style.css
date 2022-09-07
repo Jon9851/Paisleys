@@ -8,7 +8,14 @@ body{
 p {
     text-align: center;
 }
-
+nav, h1{
+    background-color: #aec589;
+    color: #fff;
+}
+.nav-link{
+    color: #fff;
+}
+.navbar-toggler{}
 /*sticky footer css*/
 main {
     flex: 1 0 auto;
