@@ -4,6 +4,7 @@
 }
 body{
     margin: 1%;
+    background-image: url("static/media/green-smokey.jpg");
 }
 p {
     text-align: center;
@@ -15,7 +16,9 @@ nav, h1{
 .nav-link{
     color: #fff;
 }
-.navbar-toggler{}
+.navbar-toggler{
+    color: #fff;
+}
 /*sticky footer css*/
 main {
     flex: 1 0 auto;
