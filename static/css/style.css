@@ -73,8 +73,13 @@ footer {
     margin-top: 2%;
 }
 
-.service-button {
-    margin-left: 45%;
-    border: 2px solid #aec589;
+.btn-secondary{
+    background-color: #aec589;
+    color: white;
+    margin-bottom: 1%;
 }
 
+.btn-secondary:hover{
+    background-color: #000;
+    color: #fff;
+}
