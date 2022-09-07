@@ -63,6 +63,41 @@ footer {
 .card-text{
     text-align: left;
 }
+.house:hover{
+    color: #fff;
+    background-color: #aec589;
+    border: 3px solid #aec589;
+}
+.bin:hover{
+    color: #fff;
+    background-color: #aec589;
+    border: 3px solid #aec589;
+}
+.rubbish:hover{
+    color: #fff;
+    background-color: #aec589;
+    border: 3px solid #aec589;
+}
+.shed:hover{
+    color: #fff;
+    background-color: #aec589;
+    border: 3px solid #aec589;
+}
+.garden:hover{
+    color: #fff;
+    background-color: #aec589;
+    border: 3px solid #aec589;
+}
+.us:hover{
+    color: #fff;
+    background-color: #aec589;
+    border: 3px solid #aec589;
+}
+.card-body{
+    background-color: #aec589;
+    color: #fff;
+}
+
 .btn-primary {
     --bs-btn-color: #aec589;
     --bs-btn-bg: #fff;
