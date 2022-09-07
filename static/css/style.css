@@ -40,10 +40,11 @@ footer {
 }
 
 .card-body {
-    background: white;
+    background-color: white;
     color: #aec589;
     font-size: 1rem;
     border: 4px solid #ffffff;
+    height: 100%;
 }
 
 .btn-primary {
@@ -59,3 +60,21 @@ footer {
     --bs-btn-active-border-color: #0a53be;
     --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
 }
+
+.icon {
+    font-size: 200%;
+    text-align: center;
+    float: left;
+    margin-bottom: 3%;
+    margin-right: 2%;
+}
+
+.card-title {
+    margin-top: 2%;
+}
+
+.service-button {
+    margin-left: 45%;
+    border: 2px solid #aec589;
+}
+
