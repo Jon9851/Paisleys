@@ -6,8 +6,6 @@ body{
     margin: 1%;
 }
 p {
-    margin-left: 10%;
-    margin-right: 10%;
     text-align: center;
 }
 
@@ -38,7 +36,13 @@ footer {
     padding-right: 5%;
     color: #ffffff;
 }
+.expert{
+    text-align: left;
+}
+.prepared{
+    text-align: left;
 
+}
 .card-body {
     background-color: white;
     color: #aec589;
@@ -46,7 +50,9 @@ footer {
     border: 4px solid #ffffff;
     height: 100%;
 }
-
+.card-text{
+    text-align: left;
+}
 .btn-primary {
     --bs-btn-color: #aec589;
     --bs-btn-bg: #fff;
