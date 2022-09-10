@@ -360,13 +360,18 @@ ul li {
     padding: 5%;
     text-transform: uppercase;
     color: #29b200;
+<<<<<<< HEAD
   }
+=======
+}
+
+>>>>>>> 4eab7920672ef7a43fb15aa6bb5a97c005ae6a35
   /* services card css */
 
-  .service-grid {
+.service-grid {
     background: transparent;
 }
-    .service-title h4 {
+.service-title h4 {
     position: relative;
     display: inline-block;
 }
@@ -549,5 +554,9 @@ ul li {
     background-position: center center;
     background-attachment: local;
     transition: all .5s;
+<<<<<<< HEAD
     color: #0a53be;
+=======
+    color: #fff;
+>>>>>>> 4eab7920672ef7a43fb15aa6bb5a97c005ae6a35
 }
