@@ -10,7 +10,8 @@ body {
 }
 
 p {
-    text-align: center;
+    text-align: left;
+    color: #e3c80e;
 }
 
 nav,
@@ -340,25 +341,26 @@ ul li {
      100% { transform: translateX(100px); }
   }*/
 
-<<<<<<< HEAD
 /* gallery */
 #photo {
     clear: both;
     column-count: 3;
-    column-gap: 2px;
+    column-gap: -70px;
+    padding: 2%;
   }
   
   #photo img {
-    width: 80%;
+    width: 50vh;
     height: 40vh;
-    border: 7px solid #2762cd;
+    border: 3px solid #e3c80e;
+    padding: 2%;
   }
   h3{
     text-align: center !important;
     padding: 5%;
     text-transform: uppercase;
     color: #29b200;
-=======
+  }
   /* services card css */
 
   .service-grid {
@@ -413,12 +415,16 @@ ul li {
 }
 
 .service-wrap-1:hover {
-    background-image: url(/static/media/shed-clearance.jpeg);
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+        ),
+         url(/static/media/shed-clearance.jpeg);
     background-size: cover;
     background-position: center center;
     background-attachment: local;
     transition: all .5s;
-    color: #fff;
+    color: #0a53be;
 }
 
 .service-wrap:hover:before {
@@ -433,7 +439,7 @@ ul li {
 }
 
 .service-wrap:hover h4,.service-wrap:hover p{
-    color: #fff;
+    color: #e3c80e;
 }
 .service-wrap h4 {
     font-weight: 600;
@@ -457,12 +463,17 @@ ul li {
 }
 
 .service-wrap-2:hover {
-    background-image: url(/static/media/rubbish.webp);
+    background-image:  linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+        ),
+    url(/static/media/rubbish.webp);
     background-size: cover;
     background-position: center center;
     background-attachment: local;
+    opacity: 0.5 !;
     transition: all .5s;
-    color: #fff;
+    color: #29b200;
 }
 
 .service-wrap-3 {
@@ -473,12 +484,16 @@ ul li {
 }
 
 .service-wrap-3:hover {
-    background-image: url(/static/media/house.JPG);
+    background-image:  linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+        ),
+    url(/static/media/house.JPG);
     background-size: cover;
     background-position: center center;
     background-attachment: local;
     transition: all .5s;
-    color: #fff;
+    color: #e3c80e;
 }
 
 .service-wrap-4 {
@@ -489,12 +504,16 @@ ul li {
 }
 
 .service-wrap-4:hover {
-    background-image: url(/static/media/garden.jpeg);
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.7)
+        ),
+     url(/static/media/garden.jpeg);
     background-size: cover;
     background-position: center center;
     background-attachment: local;
     transition: all .5s;
-    color: #fff;
+    color: #e3c80e;
 }
 
 .service-wrap-5 {
@@ -505,12 +524,16 @@ ul li {
 }
 
 .service-wrap-5:hover {
-    background-image: url(/static/media/green-bin.jpg);
+    background-image:  linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+        ),
+    url(/static/media/green-bin.jpg);
     background-size: cover;
     background-position: center center;
     background-attachment: local;
     transition: all .5s;
-    color: #fff;
+    color: #29b200;
 }
 
 .service-wrap-6 {
@@ -526,6 +549,5 @@ ul li {
     background-position: center center;
     background-attachment: local;
     transition: all .5s;
-    color: #fff;
->>>>>>> a5a82b9c6f3a9e05455b3360b52a0e21bf96ffa8
+    color: #0a53be;
 }
