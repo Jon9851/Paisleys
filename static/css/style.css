@@ -6,7 +6,7 @@
 body {
     margin: 1%;
     background-image: url("https://i.postimg.cc/3NZhkt1D/th.jpg");
-    background-image: no-repeat;
+    background-size: cover;
 }
 
 p {
@@ -239,15 +239,14 @@ ul li {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
-    align-content: stretch;
-    align-items: stretch;
+    align-content: space-between;
+    align-items: center;
   }
   .banner > div {
     padding: 1rem;
   }
   .logo {
     flex: 0 1 auto;
-    background-color: green
   }
   .messages {
     flex: 1 1 auto;
@@ -340,3 +339,22 @@ ul li {
      50% { transform: translateX(20px); }
      100% { transform: translateX(100px); }
   }*/
+
+/* gallery */
+#photo {
+    clear: both;
+    column-count: 3;
+    column-gap: 2px;
+  }
+  
+  #photo img {
+    width: 80%;
+    height: 40vh;
+    border: 7px solid #2762cd;
+  }
+  h3{
+    text-align: center !important;
+    padding: 5%;
+    text-transform: uppercase;
+    color: #29b200;
+}
