@@ -340,7 +340,6 @@ ul li {
      100% { transform: translateX(100px); }
   }*/
 
-<<<<<<< HEAD
 /* gallery */
 #photo {
     clear: both;
@@ -358,13 +357,14 @@ ul li {
     padding: 5%;
     text-transform: uppercase;
     color: #29b200;
-=======
+}
+
   /* services card css */
 
-  .service-grid {
+.service-grid {
     background: transparent;
 }
-    .service-title h4 {
+.service-title h4 {
     position: relative;
     display: inline-block;
 }
@@ -527,5 +527,4 @@ ul li {
     background-attachment: local;
     transition: all .5s;
     color: #fff;
->>>>>>> a5a82b9c6f3a9e05455b3360b52a0e21bf96ffa8
 }
