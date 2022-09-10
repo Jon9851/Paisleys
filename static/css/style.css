@@ -1,30 +1,37 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     margin: 1%;
     background-image: url("static/media/green-smokey.jpg");
 }
+
 p {
     text-align: center;
 }
-nav, h1{
+
+nav,
+h1 {
     background-color: #aec589;
     color: #fff;
 }
-.nav-link{
+
+.nav-link {
     color: #fff;
 }
-.navbar-toggler{
+
+.navbar-toggler {
     color: #fff;
 }
+
 /*sticky footer css*/
 main {
     flex: 1 0 auto;
-  }
-  
-  .flashes h4 {
+}
+
+.flashes h4 {
     line-height: 2;
 }
 
@@ -37,22 +44,27 @@ footer {
 .social-links {
     text-align: center;
 }
+
 .social-links li {
     display: inline;
 }
+
 .social-links i {
     font-size: 250%;
     padding-left: 5%;
     padding-right: 5%;
     color: #ffffff;
 }
-.expert{
+
+.expert {
     text-align: left;
 }
-.prepared{
+
+.prepared {
     text-align: left;
 
 }
+
 .card-body {
     background-color: white;
     color: #aec589;
@@ -60,40 +72,48 @@ footer {
     border: 4px solid #ffffff;
     height: 100%;
 }
-.card-text{
+
+.card-text {
     text-align: left;
 }
-.house:hover{
+
+.house:hover {
     color: #fff;
     background-color: #aec589;
     border: 3px solid #aec589;
 }
-.bin:hover{
+
+.bin:hover {
     color: #fff;
     background-color: #aec589;
     border: 3px solid #aec589;
 }
-.rubbish:hover{
+
+.rubbish:hover {
     color: #fff;
     background-color: #aec589;
     border: 3px solid #aec589;
 }
-.shed:hover{
+
+.shed:hover {
     color: #fff;
     background-color: #aec589;
     border: 3px solid #aec589;
 }
-.garden:hover{
+
+.garden:hover {
     color: #fff;
     background-color: #aec589;
     border: 3px solid #aec589;
 }
-.us:hover{
+
+.us:hover {
     color: #fff;
     background-color: #aec589;
     border: 3px solid #aec589;
 }
-.card-body{
+
+.card-body {
     background-color: #aec589;
     color: #fff;
 }
@@ -105,7 +125,7 @@ footer {
     --bs-btn-hover-color: #fff;
     --bs-btn-hover-bg: #000;
     --bs-btn-hover-border-color: #000;
-    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
     --bs-btn-active-color: #fff;
     --bs-btn-active-bg: #aec589;
     --bs-btn-active-border-color: #0a53be;
@@ -124,13 +144,197 @@ footer {
     margin-top: 2%;
 }
 
-.btn-secondary{
+.btn-secondary {
     background-color: #aec589;
     color: white;
     margin-bottom: 1%;
 }
 
-.btn-secondary:hover{
-    background-color: #000;
+.btn-secondary:hover {
+    background-color: #aec589;
     color: #fff;
 }
+
+/* animated banner */
+.c {
+    text-align: center;
+}
+
+.emphasize {
+    color: white !important;
+    font-weight: 900;
+}
+
+#saleBanner {
+    background-color: #aec589;
+    overflow: hidden;
+}
+
+#saleBanner a {
+    color: white;
+    width: 100%;
+}
+
+#saleBanner a:hover {
+    text-decoration: none;
+}
+
+#saleBannerMobile {
+    background-color: black;
+    overflow: hidden;
+}
+
+#saleBannerMobile a {
+    color: white;
+    width: 100%;
+}
+
+#saleBannerMobile a:hover {
+    text-decoration: none;
+}
+
+#tickerItems {
+    height: 28px;
+}
+
+#tickerItemsMobile {
+    height: 18px;
+}
+
+@media screen and (min-width: 513px) {
+    #saleBannerMobile {
+        display: none;
+    }
+
+    #saleBanner {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 512px) {
+    #saleBannerMobile {
+        display: block;
+    }
+
+    #saleBanner {
+        display: none;
+    }
+}
+
+ul li {
+    list-style: none
+}
+
+.width-100 {
+    width: 100%;
+}
+
+/* banner 2 */
+.banner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: stretch;
+    align-items: stretch;
+  }
+  .banner > div {
+    padding: 1rem;
+  }
+  .logo {
+    flex: 0 1 auto;
+    background-color: green
+  }
+  .messages {
+    flex: 1 1 auto;
+    background-color: #e9e9e9;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: center;
+  }
+  .messages div {
+    /*animation: move .5s ease-in-out 0.5s 4 alternate;*/
+    overflow:hidden;
+    border: 1px solid transparent;
+    font-family: Century Gothic, sans-serif;
+  }
+  .message-topic {
+    font-weight: bold;
+    font-size: 2.25rem;
+    margin-right: 1rem;
+    padding: 1.5rem 1rem 1.5rem 0;
+  }
+  .message-content {
+    font-size: 1.85rem;
+  }
+  #topic-1 {
+    animation: showup-1 7s infinite;
+    border-right: 1px solid #666;
+  }
+  #message-1 {
+    width:0px;
+    height:0px;
+    animation: reveal-1 7s infinite;
+  }
+  #message-1 span {
+    margin-left:-50vw;
+    animation: slidein-1 7s infinite;
+  }
+.logo img{
+    width: 100%;
+    height: 50vh;
+}
+  @keyframes showup-1 {
+      0% {opacity:0;border-right-color: transparent;}
+      20% {opacity:1;}
+      35% {border-right-color: #AAA;}
+      80% {opacity:1;}
+      100% {opacity:0;}
+  }
+  @keyframes reveal-1 {
+      0% {opacity:0;width:0px;height:0;}
+      20% {opacity:1;width:0px;height:30px;}
+      30% {width:550px;}
+      80% {opacity:1;}
+      100% {opacity:0;width:500px;height:30px;}
+  }
+  @keyframes slidein-1 {
+      0% { margin-left:-500px; }
+      20% { margin-left:-500px; }
+      30% { margin-left:0px; }
+      100% { margin-left:0px; }
+  }
+  
+  /* Test animation CSS; This worked at the 7-second duration */
+  /*
+  @keyframes showup-1 {
+      0% {opacity:0;border-right-color: transparent;}
+      20% {opacity:1;}
+      35% {border-right-color: #AAA;}
+      80% {opacity:1;}
+      100% {opacity:0;}
+  }
+  @keyframes reveal-1 {
+      0% {opacity:0;width:0px;height:0;}
+      20% {opacity:1;width:0px;height:30px;}
+      30% {width:550px;}
+      80% {opacity:1;}
+      100% {opacity:0;width:550px;height:30px;}
+  }
+  @keyframes slidein-1 {
+      0% { margin-left:-600px; }
+      20% { margin-left:-600px; }
+      30% { margin-left:0px; }
+      100% { margin-left:0px; }
+  }*/
+  
+  
+  
+  /*@keyframes move {
+     0% { transform: translateX(0); }
+     50% { transform: translateX(20px); }
+     100% { transform: translateX(100px); }
+  }*/
