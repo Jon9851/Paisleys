@@ -13,14 +13,14 @@ body {
 
 p {
     text-align: left;
-    color: #e3c80e;
+    color: #0a53be
     font-family: 'Oswald', sans-serif;
 }
 
 nav,
 h1 {
     background-color: transparent;
-    color: #e3c80e;
+    color: #0a53be;
     font-family: 'Oswald', sans-serif;
     
 }
@@ -640,7 +640,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #fff;
+    color: #0a53be;
     flex-direction: column;
     padding: 50px 0 20px 0;
   }
@@ -657,7 +657,7 @@ main{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    color: #fff;
+    color: #0a53be !important;
     margin: 0 auto;
     width: 50%;
   }
@@ -668,13 +668,15 @@ main{
     width: 80%;
     height: 40px;
     font-size: 1rem;
-    border: transparent;
+    border: 2px solid #0a53be;
     border-radius: 5px;
     padding-left: 5px;
+    color: #0a53be;
   }
 .form-control{
     width: 80%;
     height: 40px;
+    border: 2px solid #0a53be;
 }
   input[type="radio"]{
     width: 50px;
@@ -695,6 +697,7 @@ main{
     border: transparent;
     border-radius: 5px;
     padding-left: 5px;
+    border: 2px solid #0a53be;
   }
   .submit{
     margin: 20px;
