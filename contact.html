@@ -52,10 +52,50 @@
                 </div>
         </nav>
     </header>
+    <main>
+        <class="form">
+            <div class="title">
+                <h1 id="title">Survey Form</h1>
+                <p id="description">Thank you for taking the time to help us improve the platform</p>
+            </div>
+            <form id="survey-form" method="post" action="mailto:joncohen21k@hotmail.co.uk">
+
+                <label for="name" id="name-label" class="uno">Name</label>
+                <input type="text" id="name" placeholder="Enter your name" required>
+
+
+                <label for="email" id="email-label" class="uno">Email</label>
+                <input type="email" id="email" autocomplete="email" placeholder="Enter your email" required>
+
+                <label for="age" id="number-label" class="uno">Phone Number</label>
+                <input type="number" id="number" placeholder="Enter your phone number">
+
+                <label for="dropdown" id="dropdown-label" class="uno">Select your the type of service you
+                    require</label>
+                <select id="dropdown" name="rol">
+                    <option value="student">Shed Clearance</option>
+                    <option value="job">Rubbish Removal</option>
+                    <option value="freelancer">House Clearance</option>
+                    <option value="hunting">Garden Clearance</option>
+                    <option value="hunting">Wheelie Bin Services</option>
+                    <option value="hunting">Man with a van</option>
+                </select>
+                <label class="form-label" for="customFile">Photo upload</label>
+                <input type="file" class="form-control" id="customFile" />
+                <p class="uno">Any comments or suggestions?</p>
+                <textarea id="message" class="textarea uno" name="message"
+                    placeholder="Enter your message here..." required></textarea>
+                    <button type="submit" id="submit" class="submit uno">Send your application</button>
+                </a>
+            </form>
+            </div>
+    </main>
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
-  </script>
-  <script src="static/js/script.js"></script>
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+    </script>
+    <script src="static/js/script.js"></script>
 </body>
 
 </html>

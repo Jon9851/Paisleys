@@ -1,4 +1,26 @@
-     <div class="card-footer">
-        <a href="#" class="btn btn-primary" tabindex="-1" role="button" aria-disabled="true">40% Cheaper than our rivals
-          so why not Contact Us Today</a>
-      </div>
+    <img src="static/media/before1.jpeg" alt="before-image">
+            <img src="static/media/before3.jpeg" alt="before-image">
+            <img src="static/media/before4.jpeg" alt="before-image">
+            <img src="static/media/before5.jpeg" alt="before-image">
+            <img src="static/media/before7.jpeg" alt="before-image">
+            <img src="static/media/before9.jpeg" alt="before-image">
+            <img src="static/media/before10.jpeg" alt="before-image">
+            <img src="static/media/before12.jpeg" alt="before-image">
+            <img src="static/media/before13.jpg" alt="before-image">
+            <img src="static/media/before15.jpeg" alt="before-image">
+            <img src="static/media/garden.jpeg" alt="before-image">
+            <img src="static/media/before16.jpeg" alt="before-image">
+
+
+                   <img src="static/media/after1.jpeg" alt="after-image">
+            <img src="static/media/after2.jpeg" alt="after-image">
+            <img src="static/media/after3.jpeg" alts="after-image">
+            <img src="static/media/after4.jpeg" alt="after-image">
+            <img src="static/media/after5.jpeg" alt="after-image">
+            <img src="static/media/after6.jpeg" alt="after-image">
+            <img src="static/media/after7.jpeg" alt="after-image">
+            <img src="static/media/after8.jpeg" alt="after-image">
+            <img src="static/media/after9.jpeg" alt="after-image">
+            <img src="static/media/after12.jpeg" alt="after-image">
+            <img src="static/media/after13.jpeg" alt="">
+            <img src="static/media/after14.jpeg" alt="car park">
