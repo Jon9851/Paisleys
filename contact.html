@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="static/css/style.css" type="text/css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/b7e6ff422d.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -55,13 +58,13 @@
     <main>
         <class="form">
             <div class="title">
-                <h1 id="title">Survey Form</h1>
-                <p id="description">Thank you for taking the time to help us improve the platform</p>
+                <h1 id="title">Contact us </h1>
+                <p id="description">Thank you for taking the time to contact us</p>
             </div>
-            <form id="survey-form" method="post" action="mailto:joncohen21k@hotmail.co.uk">
+            <form id="survey-form"  action="https://formsubmit.co/el/wofegu" method="POST" method="POST">
 
                 <label for="name" id="name-label" class="uno">Name</label>
-                <input type="text" id="name" placeholder="Enter your name" required>
+                <input type="text" id="name" name="First Name" placeholder="Enter your name" required>
 
 
                 <label for="email" id="email-label" class="uno">Email</label>
@@ -83,9 +86,9 @@
                 <label class="form-label" for="customFile">Photo upload</label>
                 <input type="file" class="form-control" id="customFile" />
                 <p class="uno">Any comments or suggestions?</p>
-                <textarea id="message" class="textarea uno" name="message"
-                    placeholder="Enter your message here..." required></textarea>
-                    <button type="submit" id="submit" class="submit uno">Send your application</button>
+                <textarea id="message" class="textarea uno" name="message" placeholder="Enter your message here..."
+                    required></textarea>
+                <button type="submit" id="submit" class="submit uno">Send your application</button>
                 </a>
             </form>
             </div>
