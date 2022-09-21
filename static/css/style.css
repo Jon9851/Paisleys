@@ -123,7 +123,7 @@ ul.nav li a {
 
 .hero {
   font-family: 'Roboto Slab', sans-serif;
-  color: white;
+  color: #333;
   font-weight: normal;
   letter-spacing: 1px;
 }
@@ -133,7 +133,7 @@ h1.hero {
 }
 
 h2.hero {
-  font-size: 30px;
+  font-size: 40px;
   margin-bottom: 60px;
 }
 
@@ -515,3 +515,82 @@ h2 {
     color: #29b200;
   }
 
+/* Contact form */
+main{
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .form{
+    background: linear-gradient( 115deg, rgba(0, 25, 82, 0.8), rgba(32, 4, 64, 0.7));
+    margin: 0 auto;
+    width: 40%;
+  }
+  .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0a53be;
+    flex-direction: column;
+    padding: 50px 0 20px 0;
+  }
+  #title{
+    font-family: 'Pacifico', cursive;
+    font-size: 3rem;
+  }
+  #description{
+    font-style: italic;
+    padding: 5px;
+  }
+  #survey-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #0a53be !important;
+    margin: 0 auto;
+    width: 50%;
+  }
+  .uno{
+    padding: 10px;
+  }
+  #name, #email, #number, #dropdown, #submit{
+    width: 80%;
+    height: 40px;
+    font-size: 1rem;
+    border: 2px solid #0a53be;
+    border-radius: 5px;
+    padding-left: 5px;
+    color: #0a53be;
+  }
+.form-control{
+    width: 80%;
+    height: 40px;
+    border: 2px solid #0a53be;
+}
+  input[type="radio"]{
+    width: 50px;
+    height: 20px;
+    cursor: pointer;
+  }
+  
+  .check{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  #message{
+    width: 80%;
+    height: 100px;
+    font-size: 1rem;
+    border: transparent;
+    border-radius: 5px;
+    padding-left: 5px;
+    border: 2px solid #0a53be;
+  }
+  .submit{
+    margin: 20px;
+  }
