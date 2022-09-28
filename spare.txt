@@ -12,7 +12,7 @@
             <img src="static/media/before16.jpeg" alt="before-image">
 
 
-                   <img src="static/media/after1.jpeg" alt="after-image">
+            <img src="static/media/after1.jpeg" alt="after-image">
             <img src="static/media/after2.jpeg" alt="after-image">
             <img src="static/media/after3.jpeg" alts="after-image">
             <img src="static/media/after4.jpeg" alt="after-image">

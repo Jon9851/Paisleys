@@ -50,14 +50,14 @@ body {
 }
 
 .header {
-  line-height: 80px;
+  line-height: 200px;
   width: 100%;
   transition: line-height 0.2s linear, box-shadow 0.2s linear;
-  position: fixed;
+  position: static;
   top: 0;
   left: 0;
   z-index: 100;
-  background: rgba(245, 245, 245, 0.97);
+  background: #FFF;
 }
 
 .header.small {
@@ -81,14 +81,14 @@ body {
 }
 
 ul.nav {
-  float: right;
+  float: right !important;
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
 ul.nav li {
-  float: left;
+  float: right;
   position: relative;
 }
 
@@ -105,6 +105,7 @@ ul.nav li a {
   padding: 21px;
   color: initial;
   text-decoration: initial;
+  margin-top: 10% !important;
 }
 /*
   Slider
